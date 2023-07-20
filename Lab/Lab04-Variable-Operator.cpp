@@ -31,18 +31,18 @@ int main() {
 
     //--| YOUR CODE HERE
     char ID[10] ;
-    int Time = 0 ;
-    int Money = 0 ;
+    float Time = 0 ;
+    float Money = 0 ;
     float total ;
 
     printf( "Input the Employees ID(Max. 10 chars):\n" ) ;
     scanf( "%s", ID  ) ;
 
     printf( "Input the working hrs:\n" ) ;
-    scanf( "%d", &Time ) ;
+    scanf( "%f", &Time ) ;
 
     printf( "Salary amount/hr:\n" ) ;
-    scanf( "%d", &Money ) ;
+    scanf( "%f", &Money ) ;
 
     total = Time*Money ;
 
