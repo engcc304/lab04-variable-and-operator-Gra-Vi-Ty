@@ -31,17 +31,17 @@ int main() {
 
     //--| YOUR CODE HERE
     char ID[10] ;
-    float Time = 0 ;
-    float Money = 0 ;
+    float Time ;
+    float Money ;
     float total ;
 
-    printf( "Input the Employees ID(Max. 10 chars):\n" ) ;
+    printf( "Input the Employees ID(Max. 10 chars): \n" ) ;
     scanf( "%s", ID  ) ;
 
-    printf( "Input the working hrs:\n" ) ;
+    printf( "Input the working hrs: \n" ) ;
     scanf( "%f", &Time ) ;
 
-    printf( "Salary amount/hr:\n" ) ;
+    printf( "Salary amount/hr: \n" ) ;
     scanf( "%f", &Money ) ;
 
     total = Time*Money ;
