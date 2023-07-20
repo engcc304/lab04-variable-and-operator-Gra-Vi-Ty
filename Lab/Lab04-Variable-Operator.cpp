@@ -34,20 +34,21 @@ int main() {
     int Time = 0 ;
     int Money = 0 ;
 
-    printf( "Input the Employees ID(Max. 10 chars): \n  " ) ;
+    printf( "Input the Employees ID(Max. 10 chars):\n" ) ;
     scanf( "%s", num  ) ;
 
-    printf( "Input the working hrs: \n  " ) ;
+    printf( "Input the working hrs:\n" ) ;
     scanf( "%d", &Time ) ;
 
-    printf( "Salary amount/hr:  \n  " ) ;
+    printf( "Salary amount/hr:\n" ) ;
     scanf( "%d", &Money ) ;
 
-    float total = Time * Money ;
+    float total ;
+    total = Time * Money ;
 
     printf( "Expected Output: \n" ) ;
     printf( "Employees ID = %s \n", num ) ;
-    printf( "Salary = U$ %.2f ", total ) ;
+    printf( "Salary = U$ %0.2f ", total ) ;
 
     return 0 ;
 }//end main function
